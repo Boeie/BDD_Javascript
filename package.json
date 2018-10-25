@@ -1,14 +1,14 @@
 {
-  "name": "bdd_javascript",
+  "name": "BT_Javascript",
   "version": "1.0.0",
-  "description": "Paractise project for BDD in javascript.",
+  "description": "Paractise project in javascript.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Boeie/BDD_Javascript.git"
+    "url": "git+https://github.com/Boeie/BT_Javascript.git"
   },
   "keywords": [
     "bdd",
@@ -17,7 +17,12 @@
   "author": "Bo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Boeie/BDD_Javascript/issues"
+    "url": "https://github.com/Boeie/BT_Javascript/issues"
   },
-  "homepage": "https://github.com/Boeie/BDD_Javascript#readme"
+  "homepage": "https://github.com/Boeie/BT_Javascript#readme",
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "jest-puppeteer": "^3.4.0",
+    "puppeteer": "^1.9.0"
+  }
 }
